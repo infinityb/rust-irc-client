@@ -1,0 +1,18 @@
+[root]
+name = "irc-client"
+version = "0.1.0"
+dependencies = [
+ "irc 0.1.0 (git+https://github.com/infinityb/rust-irc#45ad875de6547697d013621a4ccb0e23e4bbe78e)",
+ "readline 0.0.1 (git+https://github.com/shaleh/rust-readline.git#80dfe467ecf043986a71b45e654ea818229d90ad)",
+]
+
+[[package]]
+name = "irc"
+version = "0.1.0"
+source = "git+https://github.com/infinityb/rust-irc#45ad875de6547697d013621a4ccb0e23e4bbe78e"
+
+[[package]]
+name = "readline"
+version = "0.0.1"
+source = "git+https://github.com/shaleh/rust-readline.git#80dfe467ecf043986a71b45e654ea818229d90ad"
+

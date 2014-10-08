@@ -1,0 +1,14 @@
+[package]
+name = "irc-client"
+version = "0.1.0"
+authors = [ "Stacey Ell <stacey.ell@gmail.com>" ]
+
+[[bin]]
+name = "irc-client"
+path = "src/irc_client.rs"
+
+[dependencies.irc]
+git = "https://github.com/infinityb/rust-irc"
+
+[dependencies.readline]
+git = "https://github.com/shaleh/rust-readline.git"
